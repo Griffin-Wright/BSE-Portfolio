@@ -16,8 +16,7 @@ My final milestone is the increased reliability and accuracy of my robot. I amel
 My second Milestone didn't include much, as at this point I was still waiting for replacement Bluetooth modules to connect my motors to the gyro, but I did some work on fixing the gyro, ensuring it gave accurate information. Fixing the gyro involved a lot of messing around with the sensitivity of the axis, along with switching the directionality of it. Soon after this milestone a lot of the code got deleted due to an accidental crash, leading to a lot of it being rewritten and a few developments as a result. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YAaq02JERwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-# First Milestone
-  
 
+# First Milestone  
 My first Milestone was hooking up the motors to the H-Bridge motor controller, along with developing basic code to recognize information sent in the Serial reader of the Arduino Uno. I set the motors up so that when I input a w command, they would all move forward, an s would move them back, an a would move them to the left and a d would move them to the right. This was likely the easiest portion of the project, but at this point it was still controlled from my computer, something that in the end I would have to change. I also set up the Arduino micro to a gyro an accelerometer, which would notice the information of distance and rotation and turn it into readable 'w', 's', 'a', or 'd' commands that would later be read by the Arduino Uno and send information to the motors.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hU7XnTTD7rI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
