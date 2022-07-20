@@ -1,6 +1,6 @@
 Gesture Controlled Car
 
-Over 2 and a half weeks, I built a chassis/car that could recieve information from a breadboard on my hand through bluetooth, using this given rotation information to move in different directions. It also includes a screen which could show distance and rotation information, an ultrasonic sensor that can sense walls in front of the car, 4 motors and many other parts.
+Over 2 and a half weeks, I built a car that could recieve information from a breadboard on my hand through bluetooth, using this given rotation information to move in different directions. It also includes a screen which could show distance and rotation information, an ultrasonic sensor that can sense walls in front of the car, 4 motors and many other parts.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
