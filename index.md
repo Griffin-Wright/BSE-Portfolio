@@ -24,29 +24,6 @@ My first Milestone was hooking up the motors to the H-Bridge motor controller, a
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hU7XnTTD7rI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-# Bill of Materials:
-  Note: Materials of base project, may not include modifications or some changes.
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| **Part** | **Quantity** | **Description** | **Reference Designator** | **Cost** | **Website** |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Robot Kit | 1 | Chassis, Battery Pack, DC Motors, Wheels, etc. | M1, M2 | 19.99 | [amazon](https://www.amazon.com/gp/product/B06VTP8XBQ)
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Bluetooth Module | 2 | Serial Communication | HC-05 | 19.98 | [amazon](https://www.amazon.com/HiLetgo-Wireless-Bluetooth-Transceiver-Arduino/dp/B071YJG8DR)
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Accelerometer | 1 | Measure Linear Acceleration Along Axis | ADXL345 | 13.59 | [amazon](https://www.amazon.com/Wishiot-ADXL345-Accelerometer-Inclination-Raspberry/dp/B09T6VJWNY/ref=sr_1_2_sspa?keywords=adxl345&qid=1656710211&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFZUVlSVVZaVU1VOVgmZW5jcnlwdGVkSWQ9QTA0NjkxNTRLRzJVTjNOU1VHVzcmZW5jcnlwdGVkQWRJZD1BMDEwNTE1NzFPVFAxQzVINjdWMEgmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Arduino Uno | 1 | Microcontroller Board | R3 | 23.00 | [arduino](https://store.arduino.cc/products/arduino-uno-rev3)
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Arduino Micro | 1 | Microcontroller Board | R3 | 20.70 | [arduino](https://store.arduino.cc/products/arduino-micro)
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Jumper Wires | 1 | Connection Wires | N/A | 6.98 | [amazon](https://www.amazon.com/Elegoo-EL-CP-004-Multicolored-Breadboard-arduino/dp/B01EV70C78)
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Dual H Bridge | 1 | Control Direction of DC Motors | L298N | 6.99 | [amazon](https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6/ref=asc_df_B014KMHSW6/?tag=hyprod-20&linkCode=df0&hvadid=167139094796&hvpos=&hvnetw=g&hvrand=13469222211329594770&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032008&hvtargid=pla-306436938191&psc=1)
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Breadboard | 1 | Build Circuits Without Soldering | N/A | 11.98 | [amazon](https://www.amazon.com/dp/B07DL13RZH/ref=redir_mobile_desktop?_encoding=UTF8&aaxitk=b163d500edcc33b8ecdb35867663512a&content-id=amzn1.sym.53aae2ac-0129-49a5-9c09-6530a9e11786%3Aamzn1.sym.53aae2ac-0129-49a5-9c09-6530a9e11786&hsa_cr_id=4991273630901&pd_rd_plhdr=t&pd_rd_r=e6730cd8-8e3e-463d-932b-2c49d394f510&pd_rd_w=jX1If&pd_rd_wg=pAAek&qid=1656710515&ref_=sbx_be_s_sparkle_mcd_asin_0_img&sr=1-1-a094db1c-5033-42c6-82a2-587d01f975e8)
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| Resistors | 1 | Control Flow of Electrical Current | N/A | 10.99 | [amazon](https://www.amazon.com/BOJACK-Values-Resistor-Resistors-Assortment/dp/B08FD1XVL6/ref=sr_1_2_sspa?crid=27KYFJ2PLSL8G&keywords=resistor&qid=1656710541&s=industrial&sprefix=resist%2Cindustrial%2C143&sr=1-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE1UTlIUDRJRElBSlomZW5jcnlwdGVkSWQ9QTA0ODQ1ODUyVzBGOEhZN1hJSVNPJmVuY3J5cHRlZEFkSWQ9QTAyMjA5NTdGT1c4RjFYSTkxNTUmd2lkZ2V0TmFtZT1zcF9hdGYmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl)
-
 # Tools Required
 
 |:--:|:--:|:--:|
@@ -56,7 +33,7 @@ My first Milestone was hooking up the motors to the H-Bridge motor controller, a
 | Screwdriver Kit | 6.99 | [amazon](https://www.amazon.com/Small-Screwdriver-Set-Mini-Magnetic/dp/B08RYXKJW9)
 
 # Schematics
-  Again, note that these are the Schematics for a gesture controlled car, not necessarily for mine with the included modifications.
+  These are the Schematics for a gesture controlled car, not necessarily for mine with the included modifications.
 ![Schematics](https://user-images.githubusercontent.com/82551067/176963218-7c0eecbe-7689-48f5-b6ea-48579ae6fb1c.jpg)
 
 # Code
