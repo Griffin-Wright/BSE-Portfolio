@@ -6,6 +6,7 @@ Over 2 and a half weeks, I built a car that could recieve information from a bre
 |:--:|:--:|:--:|:--:|
 | Griffin W. | Success Academy HSLA | Electrical Engineering or Math | Sophomore
 
+
 ![Grofin](https://user-images.githubusercontent.com/108823975/180269760-3946c0e1-f231-402c-8ecc-08f76032d647.jpeg)
 
 # Final Milestone
