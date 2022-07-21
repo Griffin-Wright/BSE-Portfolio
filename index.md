@@ -26,7 +26,7 @@ My first Milestone was hooking up the motors to the H-Bridge motor controller, a
 # Bill of Materials:
   Note: Materials of base project, may not include modifications or some changes.
 |:--:|:--:|:--:|:--:|:--:|:--:|
-| **Part** | **Quantity** | **Description** | **Reference Designator** | **Cost** | **Website**
+| **Part** | **Quantity** | **Description** | **Reference Designator** | **Cost** | **Website** |
 |:--:|:--:|:--:|:--:|:--:|:--:|
 | Robot Kit | 1 | Chassis, Battery Pack, DC Motors, Wheels, etc. | M1, M2 | 19.99 | [amazon](https://www.amazon.com/gp/product/B06VTP8XBQ)
 |:--:|:--:|:--:|:--:|:--:|:--:|
