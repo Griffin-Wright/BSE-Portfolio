@@ -282,3 +282,60 @@ void loop()
   lcd.clear();
 }
 ```
+
+```arduino
+// sets up the Bluetooth Module for the Uno
+// This is for the Arduino Uno
+// Set up the first bluetooth module
+
+#include <SoftwareSerial.h>
+
+#define tx 2
+#define rx 3
+
+SoftwareSerial configBt(rx, tx);
+
+void setup()
+{
+  Serial.begin(38400);
+  configBt.begin(38400);
+  pinMode(tx, OUTPUT);
+  pinMode(rx, INPUT);
+}
+
+void loop()
+{
+  if (configBt.available())
+  {
+    Serial.print((char)configBt.read());
+  }
+  if (Serial.available())
+  {
+    configBt.write(Serial.read());
+  }
+}
+```
+
+```arduino
+// sets up the bluetooth for the micro
+// This is for the Arduino Micro
+// Set up the other bluetooth module
+
+void setup()
+{
+  Serial.begin(38400);
+  Serial1.begin(38400);
+}
+
+void loop()
+{
+  if (Serial1.available())
+  {
+    Serial.print((char)Serial1.read());
+  }
+  if (Serial.available())
+  {
+    Serial1.write(Serial.read());
+  }
+}
+```
