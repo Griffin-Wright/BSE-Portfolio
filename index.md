@@ -8,6 +8,7 @@ Over 2 and a half weeks, I built a car that could recieve information from a bre
 
 
 ![Grofin](https://user-images.githubusercontent.com/108823975/180269760-3946c0e1-f231-402c-8ecc-08f76032d647.jpeg)
+![IMG_1383](https://user-images.githubusercontent.com/108823975/180486306-9f901c33-cb1a-4dd2-8e67-38e99658859e.jpeg)
 
 # Final Milestone
 My final milestone was somewhat bittersweet, as although I did finish the gesture controlled car, learning more about code than I had ever before, there were some unforseen issues that occured largely as a result of timing or more mechanical problems that prevented it from living up to my standards. The main issue was the wheels, which took 4+ hours to attatch, only to ultimately fail and prevent the car from fully functioning. Since the second milestone I spent a day attatching the new bluetooth sensors, which was difficult but eventually worked, and also attatching the wheels, which (as I've already with coding and problem solving, two skills that possibly weren't extremely present with me before.
